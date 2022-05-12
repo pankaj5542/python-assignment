@@ -1,0 +1,58 @@
+#Name: pankaj gupta
+#SID : 21107086
+#branch:mechanical
+
+
+#question1
+print("question1")
+n=int(input('enter a number'))
+print(f'binary equivalent of {n} is ',bin(n) [2:])
+
+#question2
+print("question2")
+a=input("enter expression:")
+print(a,'=',eval(a))
+
+#question3
+print("question3")
+from math import*
+print("(a):",(3*4)*5)
+n=float(input("Enter value of n:"))
+print("(b):",(n*(n-1))/2)
+r=float(input("Enter value of r:"))
+print("(c):",4*pi*(r*r))
+r_2=float(input("Enter value of r:"))
+a=float(input("Enter value of a in radians:"))
+b=float(input("Enter value of b in radians:"))
+print("(d):",((r_2*(cos(a))))+(r_2*(sin(b)))**1/2)
+y1=float(input("Enter value of y1:"))
+y2=float(input("Enter value of y2:"))
+x1=float(input("Enter value of x1:"))
+x2=float(input("Enter value of x2:"))
+print("(e:",(y2-y1)/(x2-x1))
+
+#question4
+print("question4")
+from math import*
+print('4.(a)')
+for i in range(5):
+    print(i)
+print('4.(b)')
+for i in range(3,10):
+    print(i)
+print('4.(c)')
+for i in range(4,13,3):
+    print(i)
+print('4.(d)')
+for i in range(15,5,-2):
+    print(i)
+print('4.(e)')
+for i in range(5,3):
+    print(i)
+
+#question5
+print("question5")
+C=int(input("Enter number of carbon atoms in molecule:"))
+H=int(input("Enter number of hydrogen atoms in molecule:"))
+O=int(input("Enter number of oxygen atoms in molecule:"))
+print("the molecular weight of the compound is ",H*1.00794 + C*12.107 + O*15.9994)Name
